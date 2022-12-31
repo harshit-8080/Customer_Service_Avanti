@@ -270,7 +270,7 @@ exports.addOrder = async(req, res) => {
 
 exports.subscribeEvents = async(req, res) => {
 
-    const event = req.body.event;
+    const event = req.body.payload.event;
 
     switch(event){
 
@@ -284,6 +284,7 @@ exports.subscribeEvents = async(req, res) => {
 
         case 'test':
             console.log("checkkk");
+
             return res.json({
                 "response":"this is test check"
             })

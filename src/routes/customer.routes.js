@@ -5,7 +5,7 @@ const CustomerController = require("../controllers/customer.controller");
 
 const CustomerRouter = express.Router();
 
-CustomerRouter.post("/app-events", auth, CustomerController.subscribeEvents); 
+CustomerRouter.post("/app-events", CustomerController.subscribeEvents); 
 
 CustomerRouter.post("/signup", CustomerController.signupCustomer);
 
