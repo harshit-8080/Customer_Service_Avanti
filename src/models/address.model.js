@@ -6,8 +6,7 @@ const AddressSchema = new Schema({
 
     street:{
         type:String,
-        require:true,
-        unique:true
+        require:true
     },
     pincode:{
         type:String,
