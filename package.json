@@ -1,0 +1,30 @@
+{
+  "name": "Customer_Service_Avanti",
+  "version": "1.0.0",
+  "description": "Customer Service For Avanti Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-8080/Customer_Service_Avanti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-8080/Customer_Service_Avanti/issues"
+  },
+  "homepage": "https://github.com/harshit-8080/Customer_Service_Avanti#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "bcrypt": "^5.1.0",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
